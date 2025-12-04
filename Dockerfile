@@ -24,7 +24,7 @@ COPY . .
 RUN python manage.py collectstatic --noinput || true
 
 # پورت پیش‌فرض
-EXPOSE 80
+EXPOSE 8000
 
 # دستور اجرای سرور
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
