@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-w)$ng8io89a$=9x-n$l2tjp#fx6ky8^c4-4h&&qi(^atmipffq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # برای Docker - در production باید محدود شود
 
 
 # Application definition
